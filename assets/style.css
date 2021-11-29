@@ -1,0 +1,25 @@
+.container {
+  padding: 2px;
+  margin: 1px;
+  display: flex;
+  width: 100vw;
+  height: 100vh;
+  justify-content: center;
+  align-items: center;
+}
+.submit-btn,
+.startbutton,
+.btn {
+  width: 75px;
+  height: 25px;
+
+  display: block;
+}
+
+.submit-btn:hover,
+.startbutton:hover,
+.btn:hover {
+  color: light grey;
+  cursor: pointer;
+}
+

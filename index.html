@@ -4,30 +4,34 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="assets/style.css" />
+    <script src="assets/script.js"></script>
+
     <title>Code Quiz</title>
   </head>
 
   <body>
     <!-- buttons for quiz and questions -->
     <main>
-      <div class="answers-container"></div>
-      <div class="question"><h1>here is your question</h1></div>
-      <div>
-        <button class="btn" id="btnA">a</button>
-        <button class="btn" id="btnB">b</button>
-        <button class="btn" id="btnC">c</button>
-        <button class="btn" id="btnD">d</button>
+      <div class="container" id="hide-answer">
+        <div class="question"><h1>here is your question</h1></div>
+        <div>
+          <button class="btn" id="btnA">a</button>
+          <button class="btn" id="btnB">b</button>
+          <button class="btn" id="btnC">c</button>
+          <button class="btn" id="btnD">d</button>
+        </div>
       </div>
     </main>
 
     <!-- start page  -->
 
-    <section class="start-page">
-      <h1>Code quiz, Press Start</h1>
+    <section class="container" id="hide-start">
+      <h1>Code quiz, Press</h1>
       <button class="startbutton" id="start">Start</button>
     </section>
     <!-- All done page with input for name and submit button  -->
-    <section>
+    <section class="container">
       <h1>All Done</h1>
       <div>
         <input type="Enter Name" />
@@ -35,7 +39,7 @@
       </div>
     </section>
     <!-- highscore page -->
-    <section>
+    <section class="container">
       <h1>HighScores</h1>
     </section>
   </body>
