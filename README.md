@@ -9,7 +9,7 @@
 
 ### Description
 
-Built the javascript side of this project. This site will use methods in js to creat a randomly generated passwords based around the critiria you select.
+Built this site using HTML, CSS and Javascript. This site is an example of a coding quiz that could be used to test the knowledge of a developer.
 
 ### Visuals
 
@@ -17,9 +17,9 @@ Built the javascript side of this project. This site will use methods in js to c
 
 ### Usage
 
-This site is used to make a computer generated password. You can select how long you would like the password along with if you would like special characters, Capital letters, Lowercase letters or numbers in the password. It then generates the passwords of scrambled items to the box on the screen.
+This site should display a start screen. When clicking start it will change to a page with a question on it and a timer in the upper right. As you answer questions new ones will appear. If you get them wrong it adds 5 seconds to the timer. After you complete the quiz or the timer runs out you will be brought to a high score page where you can add your initials to the scoreboard. This is a basic site to test javascript knowlege. 
 
 ### Links
 
-[Repo] (https://github.com/FatherWolf/Password-Generator)
-[Password-Generator] https://fatherwolf.github.io/Password-Generator/
+[Repo] (https://fatherwolf.github.io/Code-Quiz/)
+[Password-Generator] (https://github.com/FatherWolf/Code-Quiz)
