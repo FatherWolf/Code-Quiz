@@ -13,7 +13,7 @@ Built this site using HTML, CSS and Javascript. This site is an example of a cod
 
 ### Visuals
 
-![Screenshot of Site](Assets/images/Password Generatorsnip.pdf)
+![Screenshot of Site](assets\images\Code Quiz.png)
 
 ### Usage
 
