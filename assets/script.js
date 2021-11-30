@@ -1,7 +1,11 @@
-var srtButton = document.querySelector("start");
+var srtButton = document.querySelector("hide-start");
 
-srtButton.addEventListener("click", quiz);
 
-function quiz() {
-  console.log("started");
+var show = "start"
+
+function hide(show) {
+  if (show === "start") {
+    srtButton.style.display = "center"
+
+  }
 }
